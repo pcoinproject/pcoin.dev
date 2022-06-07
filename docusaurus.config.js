@@ -8,7 +8,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "pcoinproject",
-  deploymentBranch: 'gh-pages',
+  deploymentBranch: "gh-pages",
   projectName: "pcoin.dev",
   trailingSlash: false,
   themeConfig: {
@@ -19,13 +19,13 @@ const config = {
       respectPrefersColorScheme: false,
     },
     announcementBar: {
-      id: 'warn',
+      id: "warn",
       content:
-          'PCOIN is still under active development, be aware that breaking changes may occur.',
-      backgroundColor: '#036487',
-      textColor: 'black',
+        "PCOIN is still under active development, be aware that breaking changes may occur.",
+      backgroundColor: "#036487",
+      textColor: "black",
       isCloseable: true,
-  },
+    },
     prism: {
       theme: require("prism-react-renderer/themes/dracula"),
       darkTheme: require("prism-react-renderer/themes/dracula"),
@@ -46,7 +46,7 @@ const config = {
           position: "left",
         },
         {
-          href: "https://pcoinproject.github.io",
+          href: "https://github.com/pcoinproject",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub Repository",
