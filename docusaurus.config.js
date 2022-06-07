@@ -3,12 +3,14 @@ const config = {
   title: "Pcoin",
   tagline: "A decentralized currency for everyone",
   url: "https://pcoinproject.github.io",
-  baseUrl: "/",
+  baseUrl: "/pcoin.dev/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "pcoinproject",
+  deploymentBranch: 'gh-pages',
   projectName: "pcoinproject.github.io",
+  trailingSlash: false,
   themeConfig: {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     colorMode: {
@@ -16,6 +18,14 @@ const config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    announcementBar: {
+      id: 'warn',
+      content:
+          'PCOIN is still under active development, be aware that breaking changes may occur.',
+      backgroundColor: '#036487',
+      textColor: 'black',
+      isCloseable: true,
+  },
     prism: {
       theme: require("prism-react-renderer/themes/dracula"),
       darkTheme: require("prism-react-renderer/themes/dracula"),
