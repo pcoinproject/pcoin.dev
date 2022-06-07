@@ -1,0 +1,108 @@
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: "Pcoin",
+  tagline: "A decentralized currency for everyone",
+  url: "https://pcoinproject.github.io",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "pcoinproject",
+  projectName: "pcoinproject.github.io",
+  themeConfig: {
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    prism: {
+      theme: require("prism-react-renderer/themes/dracula"),
+      darkTheme: require("prism-react-renderer/themes/dracula"),
+    },
+    navbar: {
+      hideOnScroll: true,
+      title: "Pcoin",
+      logo: {
+        alt: "Pcoin Logo",
+        src: "img/logo.svg",
+        srcDark: "img/logo.svg",
+      },
+      items: [
+        {
+          to: "docs",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
+        },
+        {
+          href: "https://pcoinproject.github.io",
+          position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub Repository",
+        },
+      ],
+    },
+    footer: {
+      links: [
+        {
+          title: "Pcoin",
+          items: [
+            {
+              label: "FAQ",
+              to: "docs/help/faq",
+            },
+          ],
+        },
+        {
+          title: "Resources",
+          items: [
+            {
+              label: "Docs",
+              to: "docs",
+            },
+            {
+              label: "Releases",
+              href: "https://github.com/pcoinproject/pcoin/releases",
+            },
+          ],
+        },
+        {
+          title: "Social",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/pcoinproject",
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Pcoin. All rights reserved.`,
+    },
+  },
+  plugins: ["docusaurus-plugin-sass", "@docusaurus/plugin-ideal-image"],
+  presets: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/pcoinproject/pcoin.dev/edit/master/",
+        },
+        blog: {
+          showReadingTime: true,
+          editUrl: "https://github.com/pcoinproject/pcoin.dev/edit/master/",
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.scss"),
+        },
+        googleAnalytics: {
+          trackingID: "xxx",
+          anonymizeIP: true,
+        },
+      },
+    ],
+  ],
+}
+
+module.exports = config
