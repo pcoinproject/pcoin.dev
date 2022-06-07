@@ -37,7 +37,7 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 brew install librsvg
 ```
 
-and [`macdeployqtplus`](macdeployqtplus) dependencies:
+and [`macdeployqtplus`](https://github.com/pcoinproject/pcoin/blob/master/contrib/macdeploy/README.md) dependencies:
 
 ```shell
 pip3 install ds_store mac_alias
