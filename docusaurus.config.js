@@ -9,7 +9,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "pcoinproject",
   deploymentBranch: 'gh-pages',
-  projectName: "pcoinproject.github.io",
+  projectName: "pcoin.dev",
   trailingSlash: false,
   themeConfig: {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
