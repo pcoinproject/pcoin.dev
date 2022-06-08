@@ -27,8 +27,8 @@ const config = {
       isCloseable: true,
     },
     prism: {
-      theme: require("prism-react-renderer/themes/dracula"),
-      darkTheme: require("prism-react-renderer/themes/dracula"),
+      theme: require("prism-react-renderer/themes/vsDark"),
+      darkTheme: require("prism-react-renderer/themes/vsDark"),
     },
     navbar: {
       hideOnScroll: true,
