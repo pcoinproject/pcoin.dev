@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Data directory location
 
-The data directory is the default location where the Sbit Core files are stored.
+The data directory is the default location where the PCOIN Core files are stored.
 
 1. The default data directory paths for supported platforms are:
 
