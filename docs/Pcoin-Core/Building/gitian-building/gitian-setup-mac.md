@@ -60,7 +60,7 @@ chmod +x gitian-build.py
 This will place the script in your home directory and make it executable.
 
 :::tip
-Changes to the script in the repository won't be automatically applied after fetching with the above commands. It is good practice to periodically re-run the above commands to ensure your version of the script is always up to date.\_
+\_Changes to the script in the repository won't be automatically applied after fetching with the above commands. It is good practice to periodically re-run the above commands to ensure your version of the script is always up to date.\_
 :::
 
 ## Initial Gitian Setup
