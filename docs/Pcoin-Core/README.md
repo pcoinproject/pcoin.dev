@@ -29,11 +29,12 @@ Drag PCOIN-Qt to your applications folder, and then run PCOIN-Qt.
 
 The following are developer notes on how to build PCOIN Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
-- [Dependencies](./Building/dependencies.md)
 - [macOS Build Notes](./Building/build-osx.md)
 - [Unix Build Notes](./Building/build-unix.md)
 - [Windows Build Notes](./Building/build-windows.md)
 - [Gitian Building Guide](./Building/gitian-building/)
+- [Dependencies](./Building/dependencies.md)
+- [Depends](./Building/depends.md)
 
 ## Development
 
