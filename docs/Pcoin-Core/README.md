@@ -47,7 +47,7 @@ The following are developer notes on how to build PCOIN Core on your native plat
 - [Unauthenticated REST Interface](./Development/REST-interface.md)
 - [Dnsseed Policy](./Development/dnsseed-policy.md)
 
-### Miscellaneous
+## Miscellaneous
 
 - [Files](./Miscellaneous/files.md)
 - [Fuzz-testing](./Miscellaneous/fuzzing.md)
