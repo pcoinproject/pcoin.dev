@@ -3,48 +3,6 @@ title: Developer Notes
 sidebar_position: 1
 ---
 
-<!-- markdown-toc start -->
-
-**Table of Contents**
-
-- [Developer Notes](#developer-notes)
-  - [Coding Style (General)](#coding-style-general)
-  - [Coding Style (C++)](#coding-style-c)
-  - [Coding Style (Python)](#coding-style-python)
-  - [Coding Style (Doxygen-compatible comments)](#coding-style-doxygen-compatible-comments)
-  - [Development tips and tricks](#development-tips-and-tricks)
-    - [Compiling for debugging](#compiling-for-debugging)
-    - [Compiling for gprof profiling](#compiling-for-gprof-profiling)
-    - [debug.log](#debuglog)
-    - [Testnet and Regtest modes](#testnet-and-regtest-modes)
-    - [DEBUG_LOCKORDER](#debug_lockorder)
-    - [Valgrind suppressions file](#valgrind-suppressions-file)
-    - [Compiling for test coverage](#compiling-for-test-coverage)
-    - [Performance profiling with perf](#performance-profiling-with-perf)
-  - [Locking/mutex usage notes](#lockingmutex-usage-notes)
-  - [Threads](#threads)
-  - [Ignoring IDE/editor files](#ignoring-ideeditor-files)
-- [Development guidelines](#development-guidelines)
-  - [General PCOIN Core](#general-pcoin-core)
-  - [Wallet](#wallet)
-  - [General C++](#general-c)
-  - [C++ data structures](#c-data-structures)
-  - [Strings and formatting](#strings-and-formatting)
-  - [Variable names](#variable-names)
-  - [Threads and synchronization](#threads-and-synchronization)
-  - [Scripts](#scripts)
-    - [Shebang](#shebang)
-  - [Source code organization](#source-code-organization)
-  - [GUI](#gui)
-  - [Subtrees](#subtrees)
-  - [Upgrading LevelDB](#upgrading-leveldb)
-  - [Scripted diffs](#scripted-diffs)
-  - [Git and GitHub tips](#git-and-github-tips)
-  - [Release notes](#release-notes)
-  - [RPC interface guidelines](#rpc-interface-guidelines)
-
-<!-- markdown-toc end -->
-
 ## Coding Style (General)
 
 Various coding styles have been used during the history of the codebase,
@@ -270,7 +228,8 @@ make cov
 # A coverage report will now be accessible at `./test_pcoin.coverage/index.html`.
 ```
 
-**Sanitizers**
+### Sanitizers
+
 PCOIN can be compiled with various "sanitizers" enabled, which add
 instrumentation for issues regarding things like memory safety, thread race
 conditions, or undefined behavior. This is controlled with the
@@ -808,14 +767,17 @@ Commit [`bb81e173`](https://github.com/bitcoin/bitcoin/commit/bb81e173) is an ex
 - For resolving merge/rebase conflicts, it can be useful to enable diff3 style using
   `git config merge.conflictstyle diff3`. Instead of
 
+```
         <<<
         yours
         ===
         theirs
         >>>
+```
 
-  you will see
+you will see
 
+```
         <<<
         yours
         |||
@@ -823,9 +785,10 @@ Commit [`bb81e173`](https://github.com/bitcoin/bitcoin/commit/bb81e173) is an ex
         ===
         theirs
         >>>
+```
 
-  This may make it much clearer what caused the conflict. In this style, you can often just look
-  at what changed between _original_ and _theirs_, and mechanically apply that to _yours_ (or the other way around).
+This may make it much clearer what caused the conflict. In this style, you can often just look
+at what changed between _original_ and _theirs_, and mechanically apply that to _yours_ (or the other way around).
 
 - When reviewing patches which change indentation in C++ files, use `git diff -w` and `git show -w`. This makes
   the diff algorithm ignore whitespace changes. This feature is also available on github.com, by adding `?w=1`
