@@ -81,7 +81,7 @@ public:
 
 ## Coding Style (Python)
 
-Refer to [/test/functional/README.md#style-guidelines](/https://github.com/pcoinproject/pcoin/tree/master/test/functional#style-guidelines).
+Refer to [/test/functional/README.md#style-guidelines](https://github.com/pcoinproject/pcoin/tree/master/test/functional#style-guidelines).
 
 ## Coding Style (Doxygen-compatible comments)
 
@@ -246,23 +246,6 @@ Some examples:
 ./configure --with-sanitizers=thread
 ```
 
-If you are compiling with GCC you will typically need to install corresponding
-"san" libraries to actually compile with these flags, e.g. libasan for the
-address sanitizer, libtsan for the thread sanitizer, and libubsan for the
-undefined sanitizer. If you are missing required libraries, the configure script
-will fail with a linker error when testing the sanitizer flags.
-The test suite should pass cleanly with the `thread` and `undefined` sanitizers,
-but there are a number of known problems when using the `address` sanitizer. The
-address sanitizer is known to fail in
-[sha256_sse4::Transform](/src/crypto/sha256_sse4.cpp) which makes it unusable
-unless you also use `--disable-asm` when running configure. We would like to fix
-sanitizer issues, so please send pull requests if you can fix any errors found
-by the address sanitizer (or any other sanitizer).
-Not all sanitizer options can be enabled at the same time, e.g. trying to build
-with `--with-sanitizers=address,thread` will fail in the configure script as
-these sanitizers are mutually incompatible. Refer to your compiler manual to
-learn more about these options and which sanitizers are supported by your
-compiler.
 Additional resources:
 
 - [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
