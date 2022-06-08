@@ -1,5 +1,6 @@
 ---
 title: Depend
+sidebar_position: 6
 ---
 
 To build dependencies for the current arch+OS:
