@@ -1,6 +1,7 @@
 ---
 title: Dependencies
 description: These are the dependencies currently used by PCOIN Core
+sidebar_position: 5
 ---
 
 These are the dependencies currently used by PCOIN Core. You can find instructions for installing them in the `build-*.md` file for your platform.
