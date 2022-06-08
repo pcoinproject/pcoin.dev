@@ -32,7 +32,7 @@ The following are developer notes on how to build PCOIN Core on your native plat
 - [macOS Build Notes](./Building/build-osx.md)
 - [Unix Build Notes](./Building/build-unix.md)
 - [Windows Build Notes](./Building/build-windows.md)
-- [Gitian Building Guide](./Building/gitian-building/)
+- [Gitian Building Guide](./Building/gitian-building/gitian-building.md)
 - [Dependencies](./Building/dependencies.md)
 - [Depends](./Building/depends.md)
 

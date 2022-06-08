@@ -46,11 +46,11 @@ Any kind of virtualization can be used, for example:
 
 Please refer to the following documents to set up the operating systems and Gitian.
 
-|                          | Ubuntu/Debian                                                      | Fedora/CentOS                                                      | Windows                                                               | macOS                                                           |
-| ------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Setup Docker             |                                                                    |                                                                    | [Setup Docker for Windows](./gitian-building/docker-setup-windows.md) | [Setup Docker for macOS](./gitian-building/docker-setup-mac.md) |
-| Setup WSL (windows only) |                                                                    |                                                                    | [Setup WSL for Windows](./gitian-building/wsl-setup-windows.md)       |
-| Setup Gitian             | [Setup Gitian on Ubuntu](./gitian-building/gitian-setup-ubuntu.md) | [Setup Gitian on Fedora](./gitian-building/gitian-setup-fedora.md) | [Setup Gitian on Windows](./gitian-building/gitian-setup-windows.md)  | [Setup Gitian on macOS](./gitian-building/gitian-setup-mac.md)  |
+|                          | Ubuntu/Debian                                    | Fedora/CentOS                                    | Windows                                             | macOS                                         |
+| ------------------------ | ------------------------------------------------ | ------------------------------------------------ | --------------------------------------------------- | --------------------------------------------- |
+| Setup Docker             |                                                  |                                                  | [Setup Docker for Windows](docker-setup-windows.md) | [Setup Docker for macOS](docker-setup-mac.md) |
+| Setup WSL (windows only) |                                                  |                                                  | [Setup WSL for Windows](wsl-setup-windows.md)       |
+| Setup Gitian             | [Setup Gitian on Ubuntu](gitian-setup-ubuntu.md) | [Setup Gitian on Fedora](gitian-setup-fedora.md) | [Setup Gitian on Windows](gitian-setup-windows.md)  | [Setup Gitian on macOS](gitian-setup-mac.md)  |
 
 :::note
 
