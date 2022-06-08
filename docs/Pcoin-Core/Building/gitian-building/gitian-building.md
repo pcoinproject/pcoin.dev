@@ -57,7 +57,8 @@ Please refer to the following documents to set up the operating systems and Giti
 - Note for users wishing to use LXC: A version of `lxc-execute` higher or equal to 2.1.1 is required.
 - You can check the version with `lxc-execute --version`.
 - On Debian you might have to compile a suitable version of lxc or you can use Ubuntu 18.04 or higher instead of Debian as the host.
-  :::
+
+:::
 
 #### macOS Builds
 
