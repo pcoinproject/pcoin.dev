@@ -39,11 +39,7 @@ The following are developer notes on how to build PCOIN Core on your native plat
 ## Development
 
 - [Developer Notes](./Development/developer-notes.md)
-- [Multiwallet Qt Development](./Development/multiwallet-qt.md)
-- [Release Notes](./Development/release-notes.md)
 - [Release Process](./Development/release-process.md)
-- [Translation Process](./Development/translation_process.md)
-- [Unit Tests](./Development/unit-tests.md)
 - [Unauthenticated REST Interface](./Development/REST-interface.md)
 - [Dnsseed Policy](./Development/dnsseed-policy.md)
 
