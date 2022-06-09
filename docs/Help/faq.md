@@ -47,15 +47,15 @@ Cold staking does not require time and attention to monitor the status of your w
 
 ### 11. What is a Masternode?
 
-A Masternode is a specially configured wallet that will support the network in more ways than a normal staking wallet. These functions require 10,000 Pcoins to start and therefore the user is rewarded for both supporting the network and locking the collateral.
+A Masternode is a specially configured wallet that will support the network in more ways than a normal staking wallet. These functions require 250,000 Pcoins to start and therefore the user is rewarded for both supporting the network and locking the collateral.
 
 ### 12. Why should I run a Masternode?
 
-Being a Masternode holder is incentivized by being rewarded more Pcoin than stakers through the higher block reward. Masternode reward is equal to 3 Pcoin, while staking reward is 2 Pcoin per block. Masternode holders also gain the ability to take part in the Pcoin DAO by voting on proposals in the network.
+Masternode reward is equal to 5 Pcoin and also Masternode holders gain the ability to take part in the Pcoin DAO by voting on proposals in the network.
 
 ### 13. What does it mean to lock coins as Masternode collateral?
 
-Your 10,000 Pcoin is still yours to completely control, however should you spend the 10K Pcoin your masternode will stop and you will no longer earn block rewards. The 10,000 locked Pcoins simply act as collateral and allow you and your masternode server to secure the Pcoin network.
+Your 250,000 Pcoin is still yours to completely control, however should you spend the 250K Pcoin your masternode will stop and you will no longer earn block rewards. The 250,000 locked Pcoins simply act as collateral and allow you and your masternode server to secure the Pcoin network.
 
 ### 14. What Are The Minimum Hardware Requirements?
 
