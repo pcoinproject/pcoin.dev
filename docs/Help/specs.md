@@ -1,5 +1,5 @@
 ---
-title: PCOIN Specification
+title: PCOIN Core Specification
 sidebar_label: Specification
 sidebar_position: 3
 ---
