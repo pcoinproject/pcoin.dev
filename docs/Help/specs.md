@@ -44,6 +44,6 @@ For ZMQ use 28332
 
 | Network | EXT_PUBLIC_KEY | EXT_SECRET_KEY | bech32 | netmagic |
 | ------- | -------------- | -------------- | ------ | -------- |
-| Mainnet |                |                |        | 92a12b5c |
-| Testnet |                |                |        | 4a2c27d9 |
-| Regtest |                |                |        | 1bd461b1 |
+| Mainnet | 0488B21E       | 0488ADE4       |        | 92a12b5c |
+| Testnet | 043587CF       | 04358394       |        | 4a2c27d9 |
+| Regtest | 043587CF       | 04358394       |        | 1bd461b1 |
