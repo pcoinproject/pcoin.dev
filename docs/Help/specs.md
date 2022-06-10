@@ -55,3 +55,11 @@ For ZMQ use 28332
 | Mainnet | 0488B21E       | 0488ADE4       | ps           | 92a12b5c |
 | Testnet | 043587CF       | 04358394       | ptestsapling | 4a2c27d9 |
 | Regtest | 043587CF       | 04358394       | ptestsapling | 1bd461b1 |
+
+## BIP44
+
+| Coin type | Path component (`coin_type'`) | Symbol | Coin                                           |
+| --------- | ----------------------------- | ------ | ---------------------------------------------- |
+| 1004      | 0x800003ec                    | PCOIN  | [PCOIN](https://github.com/pcoinproject/pcoin) |
+
+[SatoshiLabs Improvement Proposals](https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
