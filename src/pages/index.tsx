@@ -21,7 +21,6 @@ const Home = () => {
 
       <main className={styles.main}>
         <Features />
-        <Download />
         <Resources />
         <FAQ />
       </main>

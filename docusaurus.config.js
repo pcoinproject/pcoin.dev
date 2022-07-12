@@ -46,6 +46,12 @@ const config = {
           position: "left",
         },
         {
+          to: "download",
+          activeBasePath: "download",
+          label: "Download",
+          position: "left",
+        },
+        {
           href: "https://github.com/pcoinproject",
           position: "right",
           className: "header-github-link",
