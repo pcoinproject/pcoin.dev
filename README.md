@@ -1,8 +1,15 @@
-<p align="center">
-    <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fpcoinproject.github.io%2Fpcoin.dev">
-    <a href="https://github.com/pcoinproject/pcoin.dev/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/pcoinproject/pcoin.dev"></a>
-    <a href= "https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
-</p>
+<div align="center">
+
+[![GitHub commits](https://badgen.net/github/commits/pcoinproject/pcoin.dev)](https://GitHub.com/pcoinproject/pcoin.dev/commit/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/pcoinproject/pcoin.dev)](https://GitHub.com/pcoinproject/pcoin.dev/commit/)
+[![GitHub issues](https://img.shields.io/github/issues/pcoinproject/pcoin.dev)](https://GitHub.com/pcoinproject/pcoin.dev/issues/)
+[![GitHub branches](https://badgen.net/github/branches/pcoinproject/pcoin.dev)](https://github.com/pcoinproject/pcoin.dev/)
+[![GitHub license](https://img.shields.io/github/license/pcoinproject/pcoin.dev)](https://github.com/pcoinproject/pcoin.dev/blob/master/LICENSE)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/pcoinproject/pcoin.dev/)
+<img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fpcoinproject.github.io%2Fpcoin.dev">
+<a href="https://github.com/pcoinproject/pcoin.dev/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/pcoinproject/pcoin.dev"></a>
+<a href= "https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
+</div>
 
 ## Introduction
 
