@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpcoin_website=self.webpackChunkpcoin_website||[]).push([[868],{3769:function(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
