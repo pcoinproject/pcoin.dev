@@ -15,7 +15,7 @@ Unpack the files into a directory and run:
 - `bin/pcoin-qt` (GUI) or
 - `bin/pcoind` (headless)
 
-If this is the first time running PCOIN Core (since v5.0.0), you'll need to install the sapling params by running the included `install-params.sh` script, which copies the two params files to `$HOME/.pcoin-params`
+If this is the first time running PCOIN Core, you'll need to install the sapling params by running the included `install-params.sh` script, which copies the two params files to `$HOME/.pcoin-params`
 
 ### Windows
 
