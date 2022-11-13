@@ -3,7 +3,7 @@ const config = {
   title: "Pcoin",
   tagline: "A decentralized currency for everyone",
   url: "https://pcoin.dev",
-  baseUrl: "/pcoin.dev/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
