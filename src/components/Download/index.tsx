@@ -15,7 +15,7 @@ const fetcher = (...args: any[]) => fetch(...args).then(res => res.json())
 
 const useLatestRelease = () => {
   const { data, error } = useSWR(
-    `https://api.github.com/repos/bitcoin/bitcoin/releases/latest`,
+    `https://api.github.com/repos/pcoinproject/pcoin/releases/latest`,
     fetcher
   )
 
@@ -30,11 +30,11 @@ const icon = (type: string) => {
   const size = 24
 
   switch (type) {
-    case "application/x-apple-diskimage":
+    case "application/octet-stream":
       return <DiApple size={size} />
-    case "application/x-msdos-program":
+    case "application/x-msdownload":
       return <DiWindows size={size} />
-    case "application/x-debian-package":
+    case "application/x-gzip":
       return <DiLinux size={size} />
     default:
       return <FiPackage size={size} />
