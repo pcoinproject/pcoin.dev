@@ -68,6 +68,10 @@ const config = {
               label: "FAQ",
               to: "docs/help/faq",
             },
+            {
+              label: "Block Explorer",
+              to: "https://explorer.pcoin.dev/",
+            },
           ],
         },
         {
