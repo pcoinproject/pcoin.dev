@@ -72,6 +72,10 @@ const config = {
               label: "Block Explorer",
               to: "https://explorer.pcoin.dev/",
             },
+            {
+              label: "Block visualizer",
+              to: "https://visualizer.pcoin.dev/",
+            },
           ],
         },
         {
