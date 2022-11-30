@@ -62,32 +62,6 @@ const config = {
     footer: {
       links: [
         {
-          title: "Pcoin",
-          items: [
-            {
-              label: "FAQ",
-              to: "docs/help/faq",
-            },
-            {
-              label: "Block Explorer",
-              to: "https://explorer.pcoin.dev/",
-            },
-            {
-              label: "Block visualizer",
-              to: "https://visualizer.pcoin.dev/",
-            },
-          ],
-        },
-        {
-          title: "Pcoin",
-          items: [
-            {
-              label: "FAQ",
-              to: "docs/help/faq",
-            },
-          ],
-        },
-        {
           title: "Block Explorer",
           items: [
             {
@@ -99,12 +73,12 @@ const config = {
               to: "https://explorer.pcoin.dev/",
             },
             {
-              label: "Block visualizer",
-              to: "https://visualizer.pcoin.dev/",
-            },
-            {
               label: "Testnet",
               to: "https://testnet.pcoin.dev/",
+            },
+            {
+              label: "Visualizer",
+              to: "https://visualizer.pcoin.dev/",
             },
           ],
         },
@@ -114,6 +88,10 @@ const config = {
             {
               label: "Docs",
               to: "docs",
+            },
+            {
+              label: "FAQ",
+              to: "docs/help/faq",
             },
             {
               label: "Releases",
