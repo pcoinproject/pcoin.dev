@@ -79,6 +79,36 @@ const config = {
           ],
         },
         {
+          title: "Pcoin",
+          items: [
+            {
+              label: "FAQ",
+              to: "docs/help/faq",
+            },
+          ],
+        },
+        {
+          title: "Block Explorer",
+          items: [
+            {
+              label: "Mainnet 1",
+              to: "https://mainnet.pcoin.dev/",
+            },
+            {
+              label: "Mainnet 2",
+              to: "https://explorer.pcoin.dev/",
+            },
+            {
+              label: "Block visualizer",
+              to: "https://visualizer.pcoin.dev/",
+            },
+            {
+              label: "Testnet",
+              to: "https://testnet.pcoin.dev/",
+            },
+          ],
+        },
+        {
           title: "Resources",
           items: [
             {
