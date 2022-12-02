@@ -77,6 +77,10 @@ const config = {
               to: "https://testnet.pcoin.dev/",
             },
             {
+              label: "Testnet Faucet",
+              to: "https://faucet.pcoin.dev/",
+            },
+            {
               label: "Visualizer",
               to: "https://visualizer.pcoin.dev/",
             },
