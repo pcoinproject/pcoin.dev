@@ -103,7 +103,7 @@ const config = {
             },
             {
               label: "Releases",
-              href: "https://github.com/pcoinproject/pcoin/releases",
+              to: "https://github.com/pcoinproject/pcoin/releases",
             },
           ],
         },
