@@ -86,7 +86,7 @@ const config = {
             },
             {
               label: "Pcoin Web Wallet",
-              href: "https://web.pcoin.dev/",
+              to: "https://web.pcoin.dev/",
             },
           ],
         },
