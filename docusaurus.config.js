@@ -84,6 +84,10 @@ const config = {
               label: "Visualizer",
               to: "https://visualizer.pcoin.dev/",
             },
+            {
+              label: "Pcoin Web Wallet",
+              href: "https://web.pcoin.dev/",
+            },
           ],
         },
         {
