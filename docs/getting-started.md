@@ -31,10 +31,6 @@ PCOIN welcomes contributions from anyone.
 Currently, the PCOIN is in development and would benefit from contributions in the form of writing code, user testing, documentation, and community support
 :::
 
-## What is PCOIN?
-
-TODO
-
 ## Development Process
 
 The master branch is regularly built and tested, but it is not guaranteed to be completely stable. [Tags](https://github.com/pcoinproject/pcoin/tags) are created regularly from release branches to indicate new official, stable release versions of PCOIN Core.
