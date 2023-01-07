@@ -79,7 +79,7 @@ We feel that if you are your own bank, you should have a choice in what directio
 
 ### 19. How Low Are The Network Fees For Pcoin?
 
-Pcoin has consistently had some of the lowest transaction fees in the industry (typical sends “cost” the sender < 0.003 Pcoin (< $0.01) per transaction. Remember, these fees are burnt from the total coin supply, thus reducing inflation assisting in stabilizing the coin value.
+Pcoin has consistently had some of the lowest transaction fees in the industry (typical sends “cost” the sender < 0.003 Pcoin per transaction. Remember, these fees are burnt from the total coin supply, thus reducing inflation assisting in stabilizing the coin value.
 
 ### 20. How Fast Is A Pcoin Transaction?
 
