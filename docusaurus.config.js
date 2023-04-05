@@ -22,7 +22,7 @@ const config = {
       id: "warn",
       content:
         "PCOIN is still under active development, be aware that breaking changes may occur.",
-      backgroundColor: "#036487",
+      backgroundColor: "#cf991b",
       textColor: "black",
       isCloseable: true,
     },
@@ -62,7 +62,24 @@ const config = {
     footer: {
       links: [
         {
-          title: "Block Explorer",
+          title: "Blockchain",
+          items: [
+            {
+              label: "Testnet Faucet",
+              to: "https://faucet.pcoin.dev/",
+            },
+            {
+              label: "Visualizer",
+              to: "https://visualizer.pcoin.dev/",
+            },
+            {
+              label: "Pcoin Web Wallet",
+              to: "https://web.pcoin.dev/",
+            },
+          ],
+        },
+        {
+          title: "Explorers",
           items: [
             {
               label: "Mainnet 1",
@@ -75,18 +92,6 @@ const config = {
             {
               label: "Testnet",
               to: "https://testnet.pcoin.dev/",
-            },
-            {
-              label: "Testnet Faucet",
-              to: "https://faucet.pcoin.dev/",
-            },
-            {
-              label: "Visualizer",
-              to: "https://visualizer.pcoin.dev/",
-            },
-            {
-              label: "Pcoin Web Wallet",
-              to: "https://web.pcoin.dev/",
             },
           ],
         },
