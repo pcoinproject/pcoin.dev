@@ -75,7 +75,7 @@ const Download = () => {
 
           <div className={clsx("col col--4", styles.info)}>
             <p>
-              PCoin provides you with the tools & resources so you can be in
+              PCOIN provides you with the tools & resources so you can be in
               control of your funds at all times.
             </p>
             <div className={styles.platforms}>
