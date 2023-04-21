@@ -20,9 +20,8 @@ const config = {
     },
     announcementBar: {
       id: "warn",
-      content:
-        "PCOIN is still under active development, be aware that breaking changes may occur.",
-      backgroundColor: "#cf991b",
+      content: "Due to client request, this project has been canceled.",
+      backgroundColor: "#f72441",
       textColor: "black",
       isCloseable: true,
     },
